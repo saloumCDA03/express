@@ -1,0 +1,15 @@
+{
+  "name": "2-fichiers-statiques",
+  "version": "1.0.0",
+  "main": "exercice_05.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "description": ""
+}

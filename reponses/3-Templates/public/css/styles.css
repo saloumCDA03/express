@@ -1,0 +1,52 @@
+header {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav img {
+  float: left;
+  height: 40px;
+  margin: 5px 10px;
+}
+
+nav a:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+nav .active {
+  background-color: #4caf50;
+}
+
+footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  margin: 0;
+}
+.err {
+  font-size: 5em;
+}

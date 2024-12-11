@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- 
+      Ce lien pointe vers une feuille de style CSS
+       qui doit être dans un dossier qui est servi comme statique par le server via  app.use(express.static("public")),
+    -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/img/fullStack.png" alt="En-tête" />
+        <!-- 
+       qui doit être dans un dossier qui est servi comme statique par le server via  app.use(express.static("public")),
+        -->
+
+        <a href="/">Accueil</a>
+        <!-- 
+        Ce lien pointe vers la route '/'.
+        coté server, vous devez avoir une route définie comme app.get("/", ...).
+        -->
+
+        <a href="/about">about</a>
+        <!-- 
+        Ce lien pointe vers la route '/about'.
+        coté server, vous devez avoir une route définie comme app.get("/about", ...).
+        -->
+
+        <a href="/contact">contact</a>
+        <!-- 
+        Ce lien pointe vers la route '/contact'.
+        coté server, vous devez avoir une route définie comme app.get("/contact", ...).
+        -->
+      </nav>
+    </header>
+    <h1>About</h1>
+    <footer>
+      <p>&copy; 2023 - Mon Site. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
