@@ -40,7 +40,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 // Utilisation du middleware pour parser les données envoyées dans la requête POST
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));// remplace le rôle de body-parser.urlencoded().
 
 // Configuration du middleware de session
 app.use(
