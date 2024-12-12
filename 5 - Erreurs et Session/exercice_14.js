@@ -16,9 +16,12 @@ app.use(function (req, res) {
 */
 
 
-/*********************************
-*************Exercice*************
-*********************************/
 /*
-Ajoutez la gestion de la page 404 à l'exercice 11. Prévoyez d'afficher une page particulière si la requête envoyée ne correspond à aucune route gérée par le site.
+Exercice
+développez une application Express avec 3 route qui renvois  chaqune un fichier ejs   
+
+Ajoutez la gestion de la page 404 .
+
+Prévoyez d'afficher une page particulière si la requête envoyée ne correspond à aucune route gérée par le site.
+
 */
