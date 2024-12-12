@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <%- include('partials/header') %>
+    <header>
+      <nav>
+        <img src="/img/fullStack.png" alt="En-tête" />
+        <a href="/">Accueil</a>
+        <a href="/about">about</a>
+        <a href="/contact">contact</a>
+      </nav>
+    </header>
+    <h1>form get</h1>
+    <main>
+      <form action="/bienvenue" method="get">
+        <div>
+          <label for="nom">Nom:</label>
+          <input type="text" id="nom" name="nom" />
+        </div>
+        <div>
+          <label for="prenom">Prénom:</label>
+          <input type="text" id="prenom" name="prenom" />
+        </div>
+        <div>
+          <label for="psw">password:</label>
+          <input type="password" id="psw" name="psw" />
+        </div>
+        <button type="submit">Envoyer</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2023 - Mon Site. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
